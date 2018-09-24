@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="bg">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/index.html">Home</a>
+            <a href="/WWTBAM/highscores.html">Past Millionaires</a>
+            <a href="/WWTBAM/index.html">New Game</a>
+        </div>
+
+        <span style="font-size:40px;cursor:auto" onclick="openNav()">&#9776;</span>
+
+        <div class="lifeline">
+            <button class="fifty-fifty"></button>
+            <br>
+            <br>
+            <button class="free-pass"></button>
+        </div>
+
+        <div class="display-bottommiddle">
+
+
+            <b class="bank">$0</b>
+
+            <h2 class="question-number">Question</h2>
+            <p class="question"></p>
+
+
+            <ul class="answers"></ul>
+
+            <form class="high-scores" action="/action_page.php">
+                <br>
+                <p>Submit your name and email to recognized for your achivement.</p>
+                Name:<br><input type="text" name="fname"><br>
+                E-mail:<br><input type="text" name="email"><br><br>
+                <input type="button" onclick="myFunction()" value="Submit">
+            </form>
+
+            <br>
+
+            <form method="get" action="/index.html">
+                <button class="restart">Play again</button>
+            </form>
+
+
+            <br><br>
+        </div><!-- .main-body -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
+</html>
+

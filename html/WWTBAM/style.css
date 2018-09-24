@@ -1,0 +1,135 @@
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}caption,th{text-align:left;}q:before,q:after{content:'';}abbr,acronym{border:0;}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.main-body {
+	margin: 0;
+	max-width: 700px;
+}
+
+.bg {
+	/* The image used */
+	background-image: url("COARNG-MILLIONAIRE.png");
+	/* Full height */
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.display-bottommiddle {
+    position: absolute;
+    border: 2px solid #333333;
+    background: rgba(128, 128, 128, 0.8);
+    top: 30%;
+    bottom: 5%;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.answers li {
+	border: 2px solid #333333;
+    position: center;
+	cursor: pointer;
+	margin-top: 10px;
+    width: 100%;
+	text-align: center;
+	background-color: #333333;
+	color: white;
+    
+	padding: 10px;
+}
+
+.restart {
+	display: none;
+    position: fixed;
+    left: 40%;
+}
+
+.lifeline {
+    position: fixed;
+    top: 5%;
+    right: 2%;
+}
+
+.fifty-fifty {
+    background: #92c7eb;
+    background-image: url('5050-icon2.png');
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 70px;
+    border-radius: 900px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* Other styles here */
+}
+
+.free-pass {
+    background: #92c7eb;
+    background-image: url('freepass-icon.png');
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 70px;
+    border-radius: 900px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* Other styles here */
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+.sidenav a {
+    font-size: 18px;
+}
+}

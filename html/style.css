@@ -1,5 +1,5 @@
 ﻿.bg {
-    background-image: url("COARNGGAMES2.png");
+    background-image: url("COARNGGAMES.png");
     /* Full height */
     height: 250%;
     /* Center and scale the image nicely */
@@ -28,7 +28,5 @@
     left: 4%;
     margin: auto;
     color: white;
-    border: 2px solid black;
-    background: rgba(128, 128, 128, 0.8);
     text-align: left;
 }
